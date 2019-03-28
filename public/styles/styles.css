@@ -1,0 +1,68 @@
+@font-face { font-family: ProximaNovaSemibold; src: url('../fonts/ProximaNovaSemibold.ttf');}
+@font-face { font-family: ProximaNovaAltRegular; src: url('../fonts/ProximaNovaAltRegular.ttf');}
+@font-face { font-family: ProximaNovaThin; src: url('../fonts/ProximaNovaThin.ttf');}
+
+body {
+  background-color: #191414;
+}
+
+/* .header {
+  font-size: 55px;
+  text-align: center;
+  font-family: ProximaNovaSemibold, sans-serif;
+  color: #1db954;
+} */
+
+#spotlyr-logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  padding-top: 25px;
+}
+
+#lyrics {
+  text-align: center;
+  font-size: 18px;
+  font-family: ProximaNovaThin, sans-serif;
+  color: #1db954;
+
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+#logos-src {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: 80px;
+}
+
+#artisttrack {
+  font-size: 25px;
+  text-align: center;
+  font-family: ProximaNovaSemibold, sans-serif;
+  color: #1db954;
+}
+
+#user {
+  float: right;
+  padding-right: 25px;
+  margin-top: -78px;
+}
+
+#user a{
+  font-size: 11px;
+  text-align: center;
+  font-family: ProximaNovaSemibold, sans-serif;
+  color: #ffffff
+}
+
+#user img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.error {
+  color: red;
+}
